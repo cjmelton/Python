@@ -2,6 +2,9 @@ import random as r
 import time as t
 import sys as s 
 
+#This program simulation was configured by C.J. Melton
+#This program is to show if you have what it takes to win the Powerball. Good luck!
+
 the_list = [0,0,0,0,0,0]
 the_num = [1,2,3,4,5,6]
 
@@ -268,6 +271,7 @@ while True:
     else:
         print("\nInvalid option.")
     
+
 
 
 
