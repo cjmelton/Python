@@ -254,10 +254,11 @@ def drawrank_application():
         print("\nAnd here are your rankings: \n")
         t.sleep(2)
         for x in list:
+            t.sleep(0.3)
             print(str(number) + ". " + str(x))
             number += 1
 
-        t.sleep(0.25)
+        t.sleep(0.5)
         while True:
             print('\nWould you like to execute another ranking?')
             print('Select the following options:')
@@ -283,5 +284,6 @@ def drawrank_application():
     main_menu()
 
 drawrank_application()
+
 
 
